@@ -491,7 +491,7 @@ menu{
         padding: 10px;
     }
     .nav{
-        padding: 10px;
+        padding-left: 10px;
     }
     .content{
         .search__item{
@@ -572,6 +572,11 @@ menu{
         }
         .btn{
             margin-bottom: 30px;
+        }
+        .search{
+            input{
+                max-width: 150px;
+            }
         }
     }
     .menu-button-container {

@@ -33,7 +33,7 @@
                     <img src="./assets/img/logo-white.png" alt="logo-white" class="header__logo-media">
                 </div>
                 <nav class="header__menu">
-                    <ul class="menu-head">
+                    <ul class="menu">
                         <li class="menu__item">
                             <a href="#" class="menu__link city">New York</a>
                             <i class="arrow down"></i>
@@ -70,11 +70,12 @@
             </nav>
         </div>
     </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+    </label>
     <div class="nav-media">
-        <input id="menu-toggle" type="checkbox" />
-        <label class='menu-button-container' for="menu-toggle">
-        <div class='menu-button'></div>
-        <ul class="navigation">
+        <ul class="navigation menu">
             <li>
                 <a href="#">Menu item</a>
             </li>
@@ -90,7 +91,7 @@
             <li>
                 <a href="#">Menu item</a>
             </li>
-        <ul/>
+        </ul>
     </div>
     <div class="main">
         <div class="container">

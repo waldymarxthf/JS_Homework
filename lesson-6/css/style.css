@@ -589,7 +589,7 @@ menu .submenu-title a:active {
     padding: 10px;
   }
   .nav {
-    padding: 10px;
+    padding-left: 10px;
   }
   .content .search__item span {
     margin-right: 0;
@@ -661,6 +661,9 @@ menu .submenu-title a:active {
   }
   .content .btn {
     margin-bottom: 30px;
+  }
+  .content .search input {
+    max-width: 150px;
   }
   .menu-button-container {
     display: -webkit-box;
